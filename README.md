@@ -8,4 +8,6 @@ In Next there will be presented the most known MPPT algorithms from the speciali
 #Constant Voltage algorithm (CV-Constant  Voltage) (Please use "Constant_Voltage_MPPT.py" for the implementation in Python.
 The MPPT-CV algorithm is the simplest MPPT algorithm. The operating point of the photovoltaic panel is maintained near the maximum power point (MPP) by adjusting at each step n the voltage VPV of the panel at a value close to a reference value: Vref=Vmpp Within this method it is assumed that the influence of temperature and radiation upon the voltage VPV of the panel is insignificant so that the adjustment (by means of a PI regulator) at step n+1 with a ΔD value of the conduction ratio D of the switchings inside the DC-DC converter is small compared to the value of D from the previous step n. Thus, the operation of the panel is never at the MPP value but at very close a value to it and therefore data must be collected for different geographical regions. 
 
-![image](https://github.com/user-attachments/assets/28857284-2c34-4d26-9c16-ca196d283868)
+In Fig CV is described this type of algorithm, by presenting in Fig CV the input voltage (measured voltage VPV of the photovoltaic panel) and the output voltage (the reference calculates voltage Vref), and by representing in Fig CV the organizational chart of the MPPT-CV algorithm. 
+
+![Fig CV](https://github.com/user-attachments/assets/28857284-2c34-4d26-9c16-ca196d283868)
